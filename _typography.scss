@@ -1,0 +1,27 @@
+//
+// Typography
+//
+
+$header-fonts: 'Adelle', sans-serif;
+$body-fonts: 'lft-etica', helvetica, arial, sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $body-fonts;
+	//letter-spacing: 1px;
+}
+
+p {
+	color: inherit;
+	font-family: $body-fonts;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+}
+
+li {
+	font-family: $body-fonts;
+	font-weight: 300;
+}
